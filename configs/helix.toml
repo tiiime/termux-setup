@@ -1,0 +1,9 @@
+[keys.normal]
+"C-c" = ["keep_primary_selection", "collapse_selection"]
+a = ["ensure_selections_forward", "collapse_selection", "move_char_right", "insert_mode"]
+
+[keys.insert]
+"C-c" = "normal_mode"
+
+[keys.select]
+"C-c" = ["normal_mode", "keep_primary_selection", "collapse_selection"]
